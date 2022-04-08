@@ -1,0 +1,218 @@
+/* fonts START */
+
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+/* font-family: 'Jaldi', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* fonts END */
+
+
+
+
+/* colors root START */
+:root {
+    --black: #000000;
+    --black-grey:#333333;
+
+    --darkBlue: #00005f;
+    --regularBlue: #144390;
+    --mornarBlue:#344384;
+    --lightBlue: #0075a7;
+    --lighterBlue: #0099dd;
+    --lightishBlue: #b3e4f8;
+    --red: #710000;
+
+    --lightRed: #d90000;
+    --darkishGrey:#4a4a4a;
+
+    --darkerGrey: #808080;
+    --lighterGrey: #9b9b9b;
+
+    --white: #ffffff;
+    --whiteSmoke: #f1f1f1;
+
+    --orange: #f5a623;
+    --darkOrange: #ee6e00;
+    --lightOrange: #ffc800;
+
+    --ligthPink: #f7cccc;
+
+
+    
+    --green: #209345;
+    
+}
+/* colors root END */
+
+/* css reset page */
+ *,
+ *::before,
+ *::after{
+     animation-duration: 0.01ms !important;
+     animation-iteration-count: 1 !important;
+     transition-duration: 0.01ms !important;
+     scroll-behavior: auto !important;
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+
+
+
+
+body{
+    background-color: yellow;
+}
+
+
+/* ----------------------------naigacija top START */
+li{
+    list-style-type: none;
+}
+
+.nav-top{
+    max-width: 100%;
+    height: 40px;
+    background-color: #00005f;
+    min-height:1px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size:0.9em;
+    font-weight: 500;
+    position:relative;
+   
+   
+ 
+    
+    
+}
+.nav-top .down-menu{
+   margin-left: 400px; 
+ 
+
+
+
+}
+
+ .nav-top ul  {
+     display: flex;
+     align-items: center;
+     
+    
+    
+     
+   
+     
+     
+ }
+ .nav-top a {
+   
+    
+    color: #f1f1f1;
+    text-decoration: none;
+    
+       
+    
+ }
+ .nav-top li{
+    padding: 10px 20px ;
+     
+ }
+ .material-icons {
+     color: #f1f1f1;
+     display: flex;
+     
+     
+    
+    
+     
+    
+     
+ }
+ .login-nav{
+margin-left: 400px;
+
+ }
+
+ /* ----------------------naigacija top END */
+
+
+
+
+
+
+/* ----------------------naigacija second START */
+
+.nav-main{
+
+    max-width: 100%;
+    min-height:60px;
+    background-color: #144390;
+    display: block;
+   
+    
+}
+.nav-main-content{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+}
+.nav-main-content input{
+    width: 700px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 450px;
+}
+.nav-main-list{
+    width: 100%;
+    display: flex;
+
+}
+.nav-main-list ul{
+    display: flex;
+}
+
+.list-btn {
+    width: 140px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.nav-main-btn{
+
+width: 200px;
+border-radius: 20px;
+background-color: #0099dd;
+border: transparent;
+
+}
+
+.nav-main-list {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -240px;
+    margin-bottom: 10px$;
+    
+  
+  
+    
+}
+.nav-main-list li {
+    display: flex;
+    padding: 10px;
+  
+    
+}
+
+
+
+ /* ----------------------naigacija second END */
+ 
