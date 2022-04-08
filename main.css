@@ -88,8 +88,12 @@ li{
     
     
 }
+.nav-logo{
+    position: absolute;
+    left: 350px;
+}
 .nav-top .down-menu{
-   margin-left: 400px; 
+   margin-left: 440px; 
  
 
 
