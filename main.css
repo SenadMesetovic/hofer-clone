@@ -84,14 +84,13 @@ li{
     position:relative;
    
    
- 
-    
-    
 }
+
 .nav-logo{
     position: absolute;
     left: 350px;
 }
+
 .nav-top .down-menu{
    margin-left: 440px; 
  
@@ -121,12 +120,13 @@ li{
     
  }
  .nav-top li{
-    padding: 10px 20px ;
+    padding: 10px 20px 10px 4px ;
      
  }
- .material-icons {
+  .material-icons {
      color: #f1f1f1;
-     display: flex;
+     display: inline-block;
+     margin:0 auto;
      
      
     
@@ -135,10 +135,18 @@ li{
     
      
  }
- .login-nav{
-margin-left: 400px;
+
+ .log-icon{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 200px;
+
+
 
  }
+
+ 
 
  /* ----------------------naigacija top END */
 
@@ -153,7 +161,7 @@ margin-left: 400px;
 
     max-width: 100%;
     min-height:60px;
-    background-color: #144390;
+    background-color: #344384;
     display: block;
    
     
@@ -161,14 +169,43 @@ margin-left: 400px;
 .nav-main-content{
     width: 100%;
     display: flex;
-    padding-top: 20px;
+    padding-top: 15px;
+    position: relative;
 }
 .nav-main-content input{
     width: 700px;
     padding: 10px;
     border-radius: 5px;
-    margin-left: 450px;
+    margin-left: 440px;
+    
 }
+.list-btn{
+
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav-main-content #search{
+    position: absolute;
+    left: 1100px;
+    top: 24px;
+    color: #9b9b9b;
+}
+.list-btn h3{
+    color: #ffffff;
+    font-size: 0.9em;
+    margin-left:60px ;
+}
+
+#favorite{
+
+    position: absolute;
+    left: 10px;
+
+
+}
+
 .nav-main-list{
     width: 100%;
     display: flex;
@@ -199,11 +236,12 @@ border: transparent;
 .nav-main-list {
     
     display: flex;
+    
     align-items: center;
     justify-content: center;
     margin-top: 10px;
     margin-left: -240px;
-    margin-bottom: 10px$;
+   
     
   
   
@@ -215,6 +253,29 @@ border: transparent;
   
     
 }
+.main-button{
+    position: relative;
+}
+
+.main-button h3{
+    color: #ffffff;
+    font-size: 1.05em;
+    
+}
+.nav-main-btn{
+    padding: 12px;
+}
+ .main-button #shopping{
+    position: absolute;
+    right: 160px;
+    top: 8px;
+    
+}
+ #chevron{
+     position: absolute;
+     right: 8px;
+     top: 8px;
+ }
 
 
 

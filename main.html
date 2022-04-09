@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <div class="nav-wrapper" id="nav-wrapper">
@@ -23,40 +23,52 @@
 
         <!-- navigacija koja je u vrhu stranice START -->
         <div class="nav-top">
-            <div class="nav-logo"><a href="#"><img src="assets/asset 1.png" alt="logo-img" ></a></div>
+            <div class="nav-logo"><a href="#"><img src="assets/asset 1.png" alt="logo-img" ></a>
+            </div>
             <ul>
                 
                 <div class="down-menu">
-                    <a href="#"><img src="assets/expand-img.png" alt="expand-img" width="35px"> </a>
+                    <a href="#"><i class="material-icons">keyboard_arrow_down</i>  </a>
                     
                 </div>
-                <li> <span class="material-icons">
-                    place
-                    </span> <a href="#">  HOFER prodavnice</a></li>
-                <li> <span class="material-icons">
-                    help_outline
-                    </span> <a href="#">Pomoc i kontakt</a></li>
-                <li> <span  class="material-icons">
-                    edit
-                    </span> <a href="">Drustvena odgovornost</a></li>
-                <li> <span class="material-icons">
-                    emoji_events
-                    </span> <a href="#">Karijera</a></li>
-                <li class="login-nav"> <span  class="material-icons">
-                    person_outline
-                    </span> <a href="#" >Prijava/registracija</a></li>
-                <li></li>
+                <i class="material-icons">location_on</i> 
+                <li><a href="#">  HOFER prodavnice</a></li>
+                <i class="material-icons">live_help</i>
+                <li>  <a href="#">Pomoc i kontakt</a></li>
+                <i class="material-icons">create</i>
+                <li>  <a href="">Drustvena odgovornost</a></li>
+                <i class="material-icons">local_bar</i>
+                <li>  <a href="#">Karijera</a></li>
+
+            <div class="log-icon">
+                <i class="material-icons">person</i>
+                <li class="login-nav"> <a href="#" >Prijava/registracija</a></li>
+
+            </div>
+                
             </ul>
         </div>
         <!-- navigacija koja je u vrhu stranice END -->
 
         <!-- navigacija glavna START -->
 <div class="nav-main">
+
     <div class="nav-main-content">
+        <i id="search" class="material-icons">search</i> 
         <input type="text" placeholder="Pretrazivac">
-        <div class="list-btn"></div>
-        <button class="nav-main-btn"></button>
+
+        <div class="list-btn">
+            <i id="favorite" class="material-icons">favorite_border</i> 
+         <h3>Moja lista</h3>
+        </div>
+
+        <div class="main-button">
+            <i id="shopping"  class="material-icons">shopping_cart</i>
+         <button class="nav-main-btn">  <h3>0,00€</h3>  </button>
+         <i id="chevron" class="material-icons">chevron_right</i>
+        </div>
     </div>
+
     <div class="nav-main-list">
         <ul>
             
