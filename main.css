@@ -51,7 +51,7 @@ font-family: 'Roboto', sans-serif; */
  *::after{
      animation-duration: 0.01ms !important;
      animation-iteration-count: 1 !important;
-     transition-duration: 0.01ms !important;
+     transition-duration: 300ms !important;
      scroll-behavior: auto !important;
      box-sizing: border-box;
      margin: 0;
@@ -302,6 +302,7 @@ border: transparent;
     background: lightgreen;
     padding: 10px auto;
     height: 100%;
+    overflow: hidden;
     /* position: relative; */
 
 }
@@ -310,6 +311,9 @@ border: transparent;
     padding: 0;
     margin: 0;
     list-style: none;
+    position:relative;
+    height: 100%;
+    transition: transform ease-in;
 }
 
 .carousel__slide{
@@ -371,6 +375,10 @@ border: transparent;
 .carousel__indicator.current-slide{
     /* background: rgba(0, 0, 0, .75); */
     background: #144390;
+}
+
+.is-hidden{
+    display: none;
 }
 
 /* ----------------------Carousel END */
