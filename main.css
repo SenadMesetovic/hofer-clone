@@ -321,6 +321,17 @@ border: transparent;
      top: 8px;
  }
 
+ 
+                     /* thrd navlist start */ 
+.expand-navlist{
+    width: 59%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #209345;
+}
+
+
+                    /* thrd navlist end */
 
 
  /* ----------------------naigacija second END */
