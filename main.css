@@ -152,6 +152,9 @@ li{
     cursor: pointer;
 
 }
+/* .nav-menu-icons:hover {
+    color: #f5a623;
+} */
 #nav-menu-first{
     margin-left: 10px;
 }
