@@ -210,25 +210,19 @@ margin-left: 260px;
     margin-left: 440px;
     
 }
+
 .list-btn{
-   
+    width: 140px;
+    height: 40px;
     display: flex;
     align-items: center;
-    position: relative;
+    border: 1px solid white;
+    border-radius: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
     cursor: pointer;
-}
-.list-btn :hover{
-   
-    background-color: #aeafb1;
 }
 
-.nav-main-content #search{
-    position: absolute;
-    left: 1100px;
-    top: 24px;
-    color: #9b9b9b;
-    cursor: pointer;
-}
 .list-btn h3{
     color: #ffffff;
     font-size: 0.9em;
