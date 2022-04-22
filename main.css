@@ -153,7 +153,7 @@ li{
     cursor: pointer;
 
 }
-.nav-menu-icons :hover{
+.nav-menu-icons a:hover{
     color: #f5a623;
 }
 #nav-menu-first{
@@ -172,6 +172,12 @@ margin-left: 260px;
 
 
  }
+ .log-icon a:hover{
+    color: #f5a623;
+ }
+
+
+
 
  
 
@@ -215,6 +221,7 @@ margin-left: 260px;
     width: 140px;
     height: 40px;
     display: flex;
+    position: relative;
     align-items: center;
     border: 1px solid white;
     border-radius: 120px;
@@ -237,6 +244,22 @@ margin-left: 260px;
 
 
 }
+
+.list-btn:hover{
+   
+    background-color: #495591;
+}
+
+.nav-main-content #search{
+    position: absolute;
+    left: 1100px;
+    top: 24px;
+    color: #9b9b9b;
+    cursor: pointer;
+}
+
+
+
 .main-button{
     color: white;
 }
@@ -259,16 +282,7 @@ margin-left: 260px;
     text-decoration: none;
 }
 
-.list-btn {
-    width: 140px;
-    height: 40px;
-    border: 1px solid white;
-    border-radius: 120px;
-    margin-left: 10px;
-    margin-right: 10px;
-    cursor: pointer;
 
-}
 .nav-main-btn{
 
 width: 200px;
@@ -278,8 +292,8 @@ border: transparent;
 cursor: pointer;
 
 }
- .nav-main-btn :hover{
-    background-color: #144390;
+ .nav-main-btn:hover{
+    background-color: #5276b1;
 }
 
 .nav-main-list {
@@ -301,6 +315,14 @@ cursor: pointer;
     padding: 10px;
   
     
+}
+.nav-main-list li a:hover{
+    text-decoration: underline 4px;
+    text-decoration-color: #ee6e00;
+    text-underline-offset: 1em;
+    color: #ee6e00;
+    
+    margin-block: 4px;
 }
 
 
