@@ -95,6 +95,7 @@ li{
     justify-content: center;
     gap: 30px;
     
+    
 }
 .show{
     display: flex;
@@ -152,9 +153,9 @@ li{
     cursor: pointer;
 
 }
-/* .nav-menu-icons:hover {
+.nav-menu-icons :hover{
     color: #f5a623;
-} */
+}
 #nav-menu-first{
     margin-left: 10px;
 }
@@ -210,10 +211,15 @@ margin-left: 260px;
     
 }
 .list-btn{
-
+   
     display: flex;
     align-items: center;
     position: relative;
+    cursor: pointer;
+}
+.list-btn :hover{
+   
+    background-color: #aeafb1;
 }
 
 .nav-main-content #search{
@@ -221,6 +227,7 @@ margin-left: 260px;
     left: 1100px;
     top: 24px;
     color: #9b9b9b;
+    cursor: pointer;
 }
 .list-btn h3{
     color: #ffffff;
@@ -265,6 +272,7 @@ margin-left: 260px;
     border-radius: 120px;
     margin-left: 10px;
     margin-right: 10px;
+    cursor: pointer;
 
 }
 .nav-main-btn{
@@ -273,17 +281,21 @@ width: 200px;
 border-radius: 20px;
 background-color: #0099dd;
 border: transparent;
+cursor: pointer;
 
+}
+ .nav-main-btn :hover{
+    background-color: #144390;
 }
 
 .nav-main-list {
     
     display: flex;
-    
     align-items: center;
     justify-content: center;
     margin-top: 10px;
     margin-left: -240px;
+    position: relative;
    
     
   
@@ -296,8 +308,14 @@ border: transparent;
   
     
 }
+
+
+ 
+
+
 .main-button{
     position: relative;
+    cursor: pointer;
 }
 
 .main-button h3{
@@ -324,6 +342,7 @@ border: transparent;
  
                      /* thrd navlist start */ 
 .expand-navlist{
+    display: none;
     width: 59%;
     height: 300px;
     margin: 0 auto;
