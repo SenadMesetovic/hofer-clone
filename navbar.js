@@ -10,13 +10,13 @@ if(showSite.style.display == "none"){
 });
 
 
-document.querySelector(#expNav).addEventListener("click", function(){
+/* document.querySelector(#expNav).addEventListener("click", function(){
 var showMenu = document.getElementById("expNav");
 if(showMenu.style.display == "none"){
     showMenu.style.display = "flex";
 
 }
-});
+}); */
 
 
 
