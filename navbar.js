@@ -10,4 +10,6 @@ if(showSite.style.display == "none"){
 });
 
 
+document.getElementById
+
 
