@@ -10,6 +10,14 @@ if(showSite.style.display == "none"){
 });
 
 
-document.getElementById
+document.querySelector(".linkQ").addEventListener("mouseover", function(){
+ var showMenu = document.getElementById("expNav");
+ if(showMenu.style.display == "none"){
+     showMenu.style.display ="flex";
+ } else{
+     showMenu.style.display = "none";
+ }
+
+});
 
 
